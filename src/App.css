@@ -12,10 +12,27 @@ a{
 body{
   background: black;
 }
+/* logo desigin */
+.logo-main{
+  width: 50px;
+}
+.userimage{
+  width: 100%;
+}
+.userBox{
+  height: 40px ;
+  width: 40px ;
+  border-radius: 10px;
+  background: gray;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 
 /* Nav Section */
 .NavBar{
-  height:10vh;
+  height:13vh;
   color: white;
   background: black;
   display: grid;
@@ -278,4 +295,14 @@ body{
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+
+
+/* Log links Drop Down */
+.links-LogHub{
+  background: blue;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  right:70px;
 }

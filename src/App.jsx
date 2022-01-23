@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+import logo from "./images/Logo.png";
 import './App.css';
 import './Components/Responsive.css';
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import {HomeMain, Qualities, AboutUS} from './Components/HomePage';
 import { SignIn, SignOTP, SignUpFirst ,SignUpSecond } from './Components/SignAccount';
+import { UserIconNavs } from "./Components/UserIcon";
 
 function App() {
   return (
@@ -39,9 +40,7 @@ function NavBar() {
       <div className="NavBar">
           <div className="nav-wrapper">
               <div className="logo-section">
-                  <h1>
-                      ADC <br /> Logistics
-                  </h1>
+                  <img src={logo} alt="" className="logo-main" />
               </div>
               <div className="links-section">
                   <div className="links-section-wrapper">
@@ -65,6 +64,7 @@ function NavBar() {
                           Sign In
                       </Link>
                   </div>
+          <UserIconNavs />
                   <div className="HamMenu">=</div>
               </div>
           </div>
