@@ -1,0 +1,264 @@
+/* General Setting Removing Defaults */
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  line-height: 0;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+body{
+  background: black;
+}
+
+/* Nav Section */
+.NavBar{
+  height:10vh;
+  color: white;
+  background: black;
+  display: grid;
+  align-items: center;
+  padding: 0 30px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+}
+.nav-wrapper{
+  display: grid;
+  grid-template-columns: 150px 1fr ;
+}
+.links-section{
+  display: none;
+  align-items: center;
+}
+.logo-section h1{
+  font-size: small;
+}
+.user-section{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.button-signin{
+  width: fit-content;
+  background: #20A4FD;
+  margin-right: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.link-nav-button{
+  display: block;
+  padding: 18px 15px;
+}
+.link-nav{
+  margin-right: 40px;
+}
+.link-nav-linked{
+  margin-right: 40px;
+  font-weight: 500;
+  color: #20A4FD;
+}
+
+
+/* Home Main */
+.HomeMain{
+   height: fit-content;
+  background: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 0vw;
+}
+.HomeMain-overlay, .Qualities{
+  height: 94vh;
+  background: rgba(0, 0, 0, 0.283);
+  display: grid;
+  align-items: center;
+  margin-top: 40px;
+}
+
+/* Headers */
+.mainHeader{
+  text-align: center;
+  color: white;
+}
+.blue-mainHeader{
+  color: #20A4FD;
+}
+.subHeader{
+  padding-top: 30px;
+  text-align: center;
+  font-size: large;
+  color: white;
+}
+
+
+/* Input Tracking Codes style */
+.track-button{
+  display: grid;
+  justify-content: center;
+  margin-top: 50px;
+}
+.input-tracking{
+  display: flex;
+  background-color: #ffffff;
+  width: fit-content;
+  padding: 10px 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+#id-inputs{
+  margin-right: 20px;
+  background: none;
+  border: none;
+  color: #000000;
+  outline: none;
+}
+.input-tracking .button-signin{
+  margin: 0;
+}
+
+
+/* Qualities */
+.Qualities{
+  height: fit-content;
+  background: black;
+}
+.Qualities-boxes{
+  margin-top: 60px;
+  display: grid;
+  justify-content: center;
+}
+.Qualities-wrap-box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.Qualities-box-subs{
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  width: fit-content;
+  margin: 30px;
+}
+.Qualities-sub-box{
+  height: 100px;
+  width: 100px;
+  background: gray;
+  margin: auto;
+}
+.title-Qualities-box{
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+
+
+/* About Us */
+.AboutUS{
+  background-color: white;
+}
+.AboutUS .AboutUS-wrap .mainHeader{
+  color: #000000;
+}
+
+
+
+/* Sign in or up stylesheet */
+.SignManger{
+  position: fixed;
+  height: 100vh;
+  width:100%;
+  background: rgba(255, 255, 255, 0.651);
+  backdrop-filter: blur(10px);
+  
+  z-index: 2;
+  top: 0;
+  display:grid;
+  justify-content: center;
+  align-items: center;
+}
+.S-box{
+  height: fit-content;
+  width: 80vw;
+  background: white;
+  display:grid;
+  padding: 40px 30px;
+  align-items: center;
+  border-radius: 10px;
+  transition: 2s;
+}
+.s-sub, .else-sign{
+  font-size: smaller;
+}
+.S-title-wrap{
+  margin-bottom: 20px;
+}
+.else-sign{
+  text-align: center;
+}
+.s-bottom{
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.button-signin-menu{
+  width: fit-content;
+  background: #20A4FD;
+  margin-right: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 20px auto;
+}
+.s-forgot{
+  font-size: smaller;
+  text-align: right;
+}
+.inputWrap{
+  margin-top: 40px;
+}
+.back-sign{
+  float: right;
+}
+.s-top{
+  margin-bottom: 20px;
+}
+
+.input-{
+  background-color: #000000;
+  width: fit-content;
+  padding: 10px 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-top: 20px ;
+  width: 100%;
+}
+#signin-inputs{
+  margin-right: 20px;
+  background: none;
+  border: none;
+  color: #000000;
+  outline: none;
+  width: 100%;
+}
+.input-tracking .button-signin{
+  margin: 0;
+}
+
+#sign-second, #sign-first{
+  display: none;
+}

@@ -1,0 +1,39 @@
+@media only screen and (min-width: 800px){
+    .NavBar, .HomeMain-overlay, .Qualities{
+      padding: 0 70px;
+    }
+    /* HeroMain */
+    .mainHeader, .subHeader, .track-button{
+        text-align: left;
+        justify-content: left;
+    }
+    .mainHeader{
+        font-size: 8vh;
+    }
+    .HomeMain{
+        background-position-x: 00vw;
+    }
+    .links-section{
+         display: grid;
+    }
+    .nav-wrapper{
+        display: grid;
+        grid-template-columns: 150px 1fr 1fr;
+    }
+    .HamMenu{
+        display: none;
+    }
+    .Qualities{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .S-box{
+        padding: 40px 60px;
+        width: 50vw;
+        transition: 2s;
+        -webkit-transition: 2s;
+        -moz-transition: 2s;
+        -ms-transition: 2s;
+        -o-transition: 2s;
+}
+}
