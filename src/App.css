@@ -178,7 +178,6 @@ body{
   width:100%;
   background: rgba(255, 255, 255, 0.651);
   backdrop-filter: blur(10px);
-  display: none;
   z-index: 2;
   top: 0;
   display:grid;
@@ -246,16 +245,37 @@ body{
   -o-border-radius: 5px;
   margin-top: 20px ;
   width: 100%;
+  color:white;
 }
 #signin-inputs{
   margin-right: 20px;
   background: none;
   border: none;
-  color: #000000;
+  color: #fff;
   outline: none;
   width: 100%;
 }
 .input-tracking .button-signin{
   margin: 0;
 }
+.OTP-wrap{
+  display:grid;
+  justify-content: center;
+}
 
+.OTP-box{
+  margin: 10px;
+  width:50px;
+  height:60px;
+  font-size: x-large;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}

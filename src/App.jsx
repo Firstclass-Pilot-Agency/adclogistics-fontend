@@ -4,7 +4,7 @@ import './Components/Responsive.css';
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import {HomeMain, Qualities, AboutUS} from './Components/HomePage';
-import { SignIn, SignUpFirst ,SignUpSecond } from './Components/SignAccount';
+import { SignIn, SignOTP, SignUpFirst ,SignUpSecond } from './Components/SignAccount';
 
 function App() {
   return (
@@ -16,11 +16,17 @@ function App() {
                   <Home />
               </Route>
 
-              <Route path="/SignIn" element={<SignManger />} exact>
-                  <SignManger />
+              <Route path="/Accounts/SignIn" element={<SignIn />} exact>
+                  <SignIn />
               </Route>
-              <Route path="/SignUp-1" element={<SignUpFirst />} exact>
+              <Route path="/Accounts/SignUp-FirstStep" element={<SignUpFirst />} exact>
                   <SignUpFirst />
+              </Route>
+              <Route path="/Accounts/SignUp-SecondStep" element={<SignUpSecond />} exact>
+                  <SignUpSecond />
+              </Route>
+              <Route path="/Accounts/Check-OTP" element={<SignOTP />} exact>
+                  <SignOTP />
               </Route>
           </Switch>
       </Router>
@@ -33,23 +39,33 @@ function NavBar() {
       <div className="NavBar">
           <div className="nav-wrapper">
               <div className="logo-section">
-                <h1>ADC <br/> Logistics</h1>
+                  <h1>
+                      ADC <br /> Logistics
+                  </h1>
               </div>
               <div className="links-section">
-                <div className="links-section-wrapper">
-                  <a href="#" className="link-nav">About us</a>
-                  <a href="#" className="link-nav">Services</a>
-                  <a href="#" className="link-nav">Locations</a>
-                  <a href="#" className="link-nav">Contacts</a>
-                </div>
+                  <div className="links-section-wrapper">
+                      <a href="#" className="link-nav">
+                          About us
+                      </a>
+                      <a href="#" className="link-nav">
+                          Services
+                      </a>
+                      <a href="#" className="link-nav">
+                          Locations
+                      </a>
+                      <a href="#" className="link-nav">
+                          Contacts
+                      </a>
+                  </div>
               </div>
               <div className="user-section">
-                <div className="button-signin">
-                  <Link to="/in" className="link-nav-button">Sign up</Link>
-                </div>
-                <div className="HamMenu">
-                  =
-                </div>
+                  <div className="button-signin">
+                      <Link to="/Accounts/SignIn" className="link-nav-button">
+                          Sign In
+                      </Link>
+                  </div>
+                  <div className="HamMenu">=</div>
               </div>
           </div>
       </div>
@@ -69,21 +85,5 @@ function Home() {
 
 // Sign in or sign up accounts
 // for SignMangement navto Components/SignAccount.jsx 😀
-function SignManger() {
-  return(
-    <Router>
-      <div className="SignManger">
-        
-        <Route path="/in" element={<SignIn />} exact>
-            <SignIn />
-        </Route>
-        <Route path="/up" element={<SignUpFirst />} exact>
-            <SignUpFirst />
-        </Route>
-        
-        <SignUpSecond />
-      </div>
-    </Router>
-  )
-}
+
 export {App} ;

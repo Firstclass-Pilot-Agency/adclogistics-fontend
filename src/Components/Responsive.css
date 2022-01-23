@@ -29,11 +29,11 @@
     }
     .S-box{
         padding: 40px 60px;
-        width: 50vw;
+        width: 35vw;
         transition: 2s;
         -webkit-transition: 2s;
         -moz-transition: 2s;
         -ms-transition: 2s;
         -o-transition: 2s;
-}
+    }
 }
