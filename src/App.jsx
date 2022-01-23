@@ -1,16 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
 import './Components/Responsive.css';
-import {HomeMain, Qualities, AboutUS} from './Components/HeroMain';
+
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import {HomeMain, Qualities, AboutUS} from './Components/HomePage';
 import { SignIn, SignUpFirst ,SignUpSecond } from './Components/SignAccount';
 
 function App() {
   return (
-      <div className="Layout">
-          <SignManger />
+      <Router>
           <NavBar />
-          <Home />
-      </div>
+
+          <Switch>
+              <Route path="/" element={<Home />} exact>
+                  <Home />
+              </Route>
+
+              <Route path="/SignIn" element={<SignManger />} exact>
+                  <SignManger />
+              </Route>
+              <Route path="/SignUp-1" element={<SignUpFirst />} exact>
+                  <SignUpFirst />
+              </Route>
+          </Switch>
+      </Router>
   );
 }
 
@@ -32,7 +45,7 @@ function NavBar() {
               </div>
               <div className="user-section">
                 <div className="button-signin">
-                  <a href="#" className="link-nav-button">Sign up</a>
+                  <Link to="/in" className="link-nav-button">Sign up</Link>
                 </div>
                 <div className="HamMenu">
                   =
@@ -58,11 +71,19 @@ function Home() {
 // for SignMangement navto Components/SignAccount.jsx 😀
 function SignManger() {
   return(
-    <div className="SignManger">
-      <SignIn />
-      <SignUpFirst />
-      <SignUpSecond />
-    </div>
+    <Router>
+      <div className="SignManger">
+        
+        <Route path="/in" element={<SignIn />} exact>
+            <SignIn />
+        </Route>
+        <Route path="/up" element={<SignUpFirst />} exact>
+            <SignUpFirst />
+        </Route>
+        
+        <SignUpSecond />
+      </div>
+    </Router>
   )
 }
 export {App} ;

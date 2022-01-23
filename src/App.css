@@ -178,7 +178,7 @@ body{
   width:100%;
   background: rgba(255, 255, 255, 0.651);
   backdrop-filter: blur(10px);
-  
+  display: none;
   z-index: 2;
   top: 0;
   display:grid;
@@ -259,6 +259,3 @@ body{
   margin: 0;
 }
 
-#sign-second, #sign-first{
-  display: none;
-}

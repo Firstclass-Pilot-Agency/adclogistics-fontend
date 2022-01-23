@@ -1,4 +1,5 @@
 // all sign section are separated for easy management
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function SignIn() {
     return (
@@ -38,9 +39,9 @@ function SignIn() {
 
                 <div className="s-bottom">
                     <div className="button-signin-menu">
-                        <a href="#" className="link-nav-button">
+                        <Link to="/SignUp-1" className="link-nav-button">
                             Sign In
-                        </a>
+                        </Link>
                     </div>
                     <p className='else-sign'>
                         Are you new{" "}
@@ -149,6 +150,38 @@ function SignUpSecond() {
                         Already have an account {" "}
                         <span className="blue-mainHeader">Sign in</span> 
                     </p>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+function SignOTPSecond() {
+    return (
+        <div className="S-box" id="sign-otp">
+            <div className="s-wrap">
+                <div className="s-top">
+                    <img src="" alt="Company Logo" />
+                    <img src="" alt="back" className="back-sign" />
+                </div>
+
+                <div className="S-title-wrap">
+                    <h1 className="s-Header">OTP check</h1>
+                    <p className="s-sub">type the otp sent to your mail</p>
+                </div>
+
+                <div className="inputWrap">
+                    <form action="">
+                        
+                    </form>
+                </div>
+
+                <div className="s-bottom">
+                    <div className="button-signin-menu">
+                        <a href="#" className="link-nav-button">
+                            Done
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
