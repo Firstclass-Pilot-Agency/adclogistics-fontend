@@ -1,4 +1,5 @@
-function LayoutUser(){
+
+function LogisticsUser(){
     return (
         <div className="LogLayout">
             <div className="buttonLinks"></div>
@@ -7,3 +8,4 @@ function LayoutUser(){
     )
     
 }
+export {LogisticsUser}

@@ -2,6 +2,9 @@
     .NavBar, .HomeMain-overlay, .Qualities{
       padding: 0 70px;
     }
+    .links-LogHub{
+        right:70px;
+    }
     /* HeroMain */
     .mainHeader, .subHeader, .track-button{
         text-align: left;

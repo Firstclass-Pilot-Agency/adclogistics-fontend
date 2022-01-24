@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import {HomeMain, Qualities, AboutUS} from './Components/HomePage';
 import { SignIn, SignOTP, SignUpFirst ,SignUpSecond } from './Components/SignAccount';
 import { UserIconNavs } from "./Components/UserIcon";
+import { LogisticsUser } from "./Components/LogisticsUser";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
               </Route>
               <Route path="/Accounts/Check-OTP" element={<SignOTP />} exact>
                   <SignOTP />
+              </Route>
+              <Route path="/Logistics" element={<LogisticsUser />} exact>
+                  <LogisticsUser />
               </Route>
           </Switch>
       </Router>
