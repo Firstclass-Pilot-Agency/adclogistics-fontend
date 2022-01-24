@@ -58,9 +58,29 @@ function DashBoard() {
     );
 }
 
+function Wallet(){
+
+}
+
+function Order(){
+
+}
+function Settings{
+
+}
+
 function MyCard() {
-    <div className="CardWrap">
-        
-    </div>
+    return (
+        <div className="CardWrap">
+            <div className="stylBoxes">
+                <div className="box1"></div>
+                <div className="box2"></div>
+            </div>
+            <div className="content">
+                <p className="cardidnumber">3546 5464 6453 6356</p>
+                <h1 className="amountinCard">$00.0</h1>
+            </div>
+        </div>
+    )
 }
 export {LogisticsUser}

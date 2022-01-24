@@ -353,13 +353,14 @@ body {
     background: white;
 }
 .buttonLinks {
+  background: black;
     position: absolute;
     width: 250px;
     display: grid;
-    align-items: center;
-    display: grid;
-    align-items: center;
     padding: 0px 35px;
+    padding-top: 20vh;
+    height: 100%;
+    display: none;
 }
 .bttn-link-log-active {
     height: 45px;
@@ -396,7 +397,7 @@ body {
     color: white;
     align-self: center;
     margin-left: 10px;
-    font-size: small;
+    font-size: medium;
 }
 .iconify-inline[data-icon="bx:bx-menu"] {
     font-size: 30px;
@@ -408,11 +409,67 @@ body {
     font-size: 20px;
 }
 .EditSection {
-    padding: 0 40px;
+    
     padding-top: 20vh;
 }
 .CardWrap {
+    margin-top: 30px;
+    box-shadow: 10px 10px 20px gray;
     width: 300px;
-    height: 100px;
-    background: ;
+    height: 160px;
+    background-image: linear-gradient(45deg ,#20a4fd ,yellow);
+    border-radius: 10px;
+    overflow:hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    
+}
+.stylBoxes{
+  display: flex;
+  width: 300px;
+    height: 160px;
+    overflow: hidden;
+}
+.box1{
+  height: 200px ;
+  width: 200px;
+  background: black;
+  transform: rotateZ(45deg) translateX(-60px) translateY(30px);
+  -webkit-transform: rotateZ(45deg) translateX(-60px) translateY(30px);
+  -moz-transform: rotateZ(45deg) translateX(-60px) translateY(30px);
+  -ms-transform: rotateZ(45deg) translateX(-60px) translateY(30px);
+  -o-transform: rotateZ(45deg) translateX(-60px) translateY(30px);
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+.box2{
+  height: 130px ;
+  width: 130px;
+  background: black;
+  border-radius: 40px;
+  transform: rotateZ(45deg) translateX(70px) translateY(40px);
+  -webkit-transform: rotateZ(45deg) translateX(70px) translateY(40px);
+  -moz-transform: rotateZ(45deg) translateX(70px) translateY(40px);
+  -ms-transform: rotateZ(45deg) translateX(70px) translateY(40px);
+  -o-transform: rotateZ(45deg) translateX(70px) translateY(40px);
+}
+.content{
+  position: absolute;
+  transform: translateY(-75px);
+  -webkit-transform: translateY(-75px);
+  -moz-transform: translateY(-75px);
+  -ms-transform: translateY(-75px);
+  -o-transform: translateY(-75px);
+  margin-left: 20px;
+}
+.cardidnumber, .amountinCard{
+  color: white
+}
+.dashboard{
+  padding: 0 40px;
 }
