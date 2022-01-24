@@ -68,8 +68,13 @@ function NavBar() {
                           Sign In
                       </Link>
                   </div>
-          <UserIconNavs />
-                  <div className="HamMenu">=</div>
+                  <UserIconNavs />
+                  <div className="HamMenu">
+                      <span
+                          className="iconify-inline"
+                          data-icon="bx:bx-menu"
+                      ></span>
+                  </div>
               </div>
           </div>
       </div>
