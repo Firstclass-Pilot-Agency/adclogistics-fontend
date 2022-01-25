@@ -2,8 +2,9 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 function UserIconNavs() {
    return (
        <div className="ep">
-           <button className="userBox" id='userbutton'>
-           {/* <img src={""} alt="userimage" className="profileImg" onClick={dropdown} /> */}
+           <button className="userBox" id='userbutton' onClick={dropdown}>
+           <span class="iconify" data-icon="uil:user" style={{color: "white"}} data-width="40" ></span>
+           
         </button>
            <div className="links-LogHub" id="menudrop">
                <h1 className='user-name'>Spider Man importer <br />
