@@ -36,10 +36,7 @@ function LogisticsUser() {
                 </div>
             </div>
             <div className="EditSection">
-                <DashBoard />
-                <Wallet />
-                <Order />
-                <Settings />
+                
             </div>
         </div>
     );
@@ -67,8 +64,8 @@ function Wallet() {
                     <h1>My Wallet</h1>
                     <p>get an overview of all activites in your account</p>
                 </div>
-                <MyCard />
-                <div className="w-box">
+                <MyCard id='w-Card'/>
+                <div className="w-box" id='w-bal'>
                     <div className="b-wrap">
                         <div className="top-b">
                             <h2 className="b-text-header">Balance</h2>
@@ -79,7 +76,7 @@ function Wallet() {
                         </div>
                     </div>
                 </div>
-                <div className="w-box">
+                <div className="w-box" id='w-fund'>
                     <div className="wrap-Fundwallet">
                         <div className="top-b">
                             <h2 className="b-text-header">Fund Your Wallet</h2>
@@ -110,7 +107,7 @@ function Wallet() {
                         </form>
                     </div>
                 </div>
-                <div className="w-box">
+                <div className="w-box" id='w-trans'>
                     <div className="wrap-Fundwallet">
                         <div className="top-b">
                             <h2 className="b-text-header">Transactions</h2>
