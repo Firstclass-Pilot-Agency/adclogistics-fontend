@@ -273,8 +273,12 @@ function Footer(){
                 </div>
                 <div className="rigth">
                     <h1 className="fHeader">Get in Touch</h1>
-                    <div className="icons">
-                        
+                    <p style={{color: 'white'}}>Main branch:  277 Park Ave, New York, NY 10172. USA <br />
+                    +17186184151 (USA branch)</p>
+                    <div className="icons" style={{display:'grid', gridTemplateColumns:'repeat(4, 50px)'}}>
+                        <span class="iconify" data-icon="uil:twitter" style={{color: 'white'}} data-width="30"></span>
+                        <span class="iconify" data-icon="uil:facebook" style={{color: 'white'}} data-width="30"></span>
+                        <span class="iconify" data-icon="uil:instagram" style={{color: 'white'}} data-width="30"></span>
                     </div>
                 </div>
             </div>
