@@ -3,7 +3,7 @@ function UserIconNavs() {
    return (
        <div className="ep">
            <button className="userBox" id='userbutton' onClick={dropdown}>
-           <span class="iconify" data-icon="uil:user" style={{color: "white"}} data-width="40" ></span>
+           <span class="iconify" data-icon="uil:user" style={{color: "white"}} data-width="25" ></span>
            
         </button>
            <div className="links-LogHub" id="menudrop">

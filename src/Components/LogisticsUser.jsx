@@ -4,9 +4,14 @@ function LogisticsUser() {
     return (
         <div className="LogPage">
             <div className="log-wrap">
-                <div className="overview"></div>
+                <div className="overview">
+                    <h1 className="maintext-log">
+                        Hi, User
+                    </h1>
+                    <p>here is an overview of the activities on your account</p>
+                </div>
                 <div className="orders"></div>
-                <div className="moreinfo"></div>\
+                <div className="moreinfo"></div>
             </div>
         </div>
 
