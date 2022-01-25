@@ -48,20 +48,42 @@ function Qualities() {
             <div className="Qualities-boxes">
                 <div className="Qualities-wrap-box">
                     <div className="Qualities-box-subs">
-                        <div className="Qualities-sub-box"></div>
+                        <div className="Qualities-sub-box">
+                            <span
+                                className="iconify"
+                                data-icon="icon-park-outline:speed-one"
+                                id="i-eeon"
+                            ></span>
+                        </div>
                         <p className="title-Qualities-box">Quick Delivery</p>
                     </div>
                     <div className="Qualities-box-subs">
-                        <div className="Qualities-sub-box"></div>
-                        <p className="title-Qualities-box">Quick Delivery</p>
+                        <div className="Qualities-sub-box">
+                            <span
+                                className="iconify"
+                                data-icon="mdi:cash-lock"
+                                id="i-eeon"
+                            ></span>
+                        </div>
+                        <p className="title-Qualities-box">Secure Payments</p>
                     </div>
                     <div className="Qualities-box-subs">
-                        <div className="Qualities-sub-box"></div>
-                        <p className="title-Qualities-box">Quick Delivery</p>
+                        <div className="Qualities-sub-box">
+                            <span
+                                className="iconify"
+                                data-icon="fluent:eye-tracking-24-filled"
+                                id="i-eeon"
+                            ></span>
+                        </div>
+                        <p className="title-Qualities-box">Easy Tracking</p>
                     </div>
                     <div className="Qualities-box-subs">
-                        <div className="Qualities-sub-box"></div>
-                        <p className="title-Qualities-box">Quick Delivery</p>
+                        <div className="Qualities-sub-box">
+                            <span className="iconify" data-icon="carbon:van" id="i-eeon"></span>
+                        </div>
+                        <p className="title-Qualities-box">
+                            Fast Transportaton
+                        </p>
                     </div>
                 </div>
             </div>
@@ -74,28 +96,27 @@ function AboutUS() {
     return (
         <div className="AboutUS">
             <div className="AboutUS-wrap">
-                <h1 className="mainHeader">
-                    Why Should You <br />{" "}
-                    <span className="blue-mainHeader">Pick Us</span>
-                </h1>
-                <p className="subHeader" >
-                    ADC is your number one online <br />
-                    logistics site in Nigeria. transport <br />
-                    items with the push of a button <br />
-                    anytime anywhere
-                    <br />
-                    <br />
-                    Technology and its application are fundamental at GIGL.
-                     We understand the role of technology in providing an
-                    
-                    exceptional customer experience. For this reason, our
-                    
-                    processes, products and services are built around modern
-                    
-                    technology to help us deliver your shipments cheaper, safely
-                    
-                    and at the speed of light.
-                </p>
+                <div className="aleft">
+                    <div className="cans">
+                        <h1 className="mainHeader">
+                        Why Should You <br />{" "}
+                        <span className="blue-mainHeader">Pick Us</span>
+                    </h1>
+                    <p className="subHeader">
+                        
+                        <br />
+                        Technology and its application are fundamental at GIGL.
+                        We understand the role of technology in providing an
+                        exceptional customer experience. For this reason, our
+                        processes, products and services are built around modern
+                        technology to help us deliver your shipments cheaper,
+                        safely and at the speed of light.
+                    </p>
+                    </div>
+                </div>
+                <div className="right">
+
+                </div>
             </div>
         </div>
     );
@@ -116,11 +137,93 @@ function Services() {
                 </p>
                 <div className="ServicePoints">
                     <div className="Service-point-wrap">
-                        <div className="Service-box">
-                            <div className="Service-box-wrap">
-                                <p className="box-service-header">
-                                    
-                                </p> 
+                        <div className="absParent">
+                            <div className="Service-box">
+                                <div className="Service-box-wrap">
+                                    <div className="foricon">
+                                        <span
+                                            className="iconify"
+                                            data-icon="fa-solid:shipping-fast"
+                                            id="i-eeone"
+                                        ></span>
+                                    </div>
+                                    <p className="box-service-header">
+                                        {" "}
+                                        Flash Shipping{" "}
+                                    </p>
+                                    <p className="extra-text">
+                                        Technology and its application are
+                                        fundamental at GIGL. We understand the
+                                        role of technology in providing an
+                                        exceptional customer experience.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="absParent">
+                            <div className="Service-box">
+                                <div className="Service-box-wrap">
+                                    <div className="foricon">
+                                        <span
+                                            className="iconify"
+                                            data-icon="grommet-icons:shop"
+                                            id="i-eeone"
+                                        ></span>
+                                    </div>
+                                    <p className="box-service-header">
+                                        {" "}
+                                        E-commerce{" "}
+                                    </p>
+                                    <p className="extra-text">
+                                        Technology and its application are
+                                        fundamental at GIGL. We understand the
+                                        role of technology in providing an
+                                        exceptional customer experience.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="absParent">
+                            <div className="Service-box">
+                                <div className="Service-box-wrap">
+                                    <div className="foricon">
+                                        <span
+                                            className="iconify"
+                                            data-icon="ic:outline-airplane-ticket"
+                                            id="i-eeone"
+                                        ></span>
+                                    </div>
+                                    <p className="box-service-header">
+                                        {" "}
+                                        Overseas Shipping{" "}
+                                    </p>
+                                    <p className="extra-text">
+                                        Technology and its application are
+                                        fundamental at GIGL. We understand the
+                                        role of technology in providing an
+                                        exceptional customer experience.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="absParent">
+                            <div className="Service-box">
+                                <div className="Service-box-wrap">
+                                    <div className="foricon">
+                                        <span className="iconify" data-icon="ph:package-bold"
+                                        id="i-eeone"></span>
+                                    </div>
+                                    <p className="box-service-header">
+                                        {" "}
+                                        Quick Quote{" "}
+                                    </p>
+                                    <p className="extra-text">
+                                        Technology and its application are
+                                        fundamental at GIGL. We understand the
+                                        role of technology in providing an
+                                        exceptional customer experience.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -134,6 +237,7 @@ function Faq() {
     return (
         <div className="Faqs">
             <div className="faqs-wraper">
+                div.wleft
                 <h1 className="mainHeader">
                     Services That <br />{" "}
                     <span className="blue-mainHeader">Suits</span> You

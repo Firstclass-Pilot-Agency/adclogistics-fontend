@@ -154,6 +154,7 @@ body {
 .Qualities {
     height: fit-content;
     background: black;
+    margin-bottom: 80px;
 }
 .Qualities-boxes {
     margin-top: 60px;
@@ -185,23 +186,82 @@ body {
 
 /* About Us */
 .AboutUS {
-    padding-top: 100px;
+    
     background-color: white;
     padding-bottom:100px;
 }
 .AboutUS .AboutUS-wrap .mainHeader, .AboutUS .AboutUS-wrap .subHeader {
     color: #000000;
-    padding: 0 80px
+    
 }
+.aleft{
+        height: 100vh;
+        display: grid;
+        align-items: center;
+    }
+        .cans{
+        height:fit-content;
+        background: white;
+        box-shadow: 5px 5px 60px;
+        padding:40px 30px;
+        margin: 0px 30px;
+        transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+}
+.cans .subHeader{
+        font-size: smaller;
+    }
 
 .Services{
-    padding-top: 100px;
+    padding: 0 30px;
+    padding-top: 80px;
     background-color: white;
-    padding-bottom:100px;
+    padding-bottom:1000px;
+    
 }
-
-
-
+.Services-wrap .mainHeader, .Services-wrap .subHeader{
+    text-align: center;
+    color: black;
+}
+.Service-box{
+    width: 140px;
+    height:180px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 3px solid #20a4fd;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.foricon{
+    height: 50px;
+    width: 50px;
+    background:gray;
+    
+    margin: auto;
+    margin-bottom: 20px;
+}
+.box-service-heade{
+    padding-top: 20px;
+    color: black;
+}
+.ServicePoints{
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+}
 /* Footer  */
 .Footer{
     background: black;
@@ -573,4 +633,64 @@ body {
         font-size: small;
     }
 
+.Service-box:hover{
+    transition: 0.02s;
+    background-color: black;
+    width: 250px;
+    height:300px;
+    -webkit-transition: 0.02s;
+    -moz-transition: 0.02s;
+    -ms-transition: 0.02s;
+    -o-transition: 0.02s;
+    border: none;
+    border-radius: 10px;
+}
+.Service-box:hover .box-service-header{
+    color: white;
+    font-size: x-large;
+    font-weight: 500;
+    text-align:center;
     
+}
+.extra-text{
+    display: none;
+    text-align:center;
+    font-size: smaller;
+    padding: 20px;
+}
+.Service-box:hover .extra-text{
+    display: block;
+    color: white;
+}
+.right{
+    background-color: gray;
+}
+.right{
+    background: url('https://images.unsplash.com/photo-1611746351408-c0a1346be8e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+    background-size: cover;
+    background-position-x: -300px;
+}
+#i-eeon{
+    font-size:80px;
+    color: white;
+}
+.Service-box:hover #i-eeone{
+    font-size:60px;
+    color: white;
+}
+#i-eeone{
+    font-size:40px;
+    color: black;
+}
+.Qualities-sub-box{
+    background: none;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+.foricon{
+    background: none;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

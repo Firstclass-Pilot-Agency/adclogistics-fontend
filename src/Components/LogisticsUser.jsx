@@ -126,7 +126,6 @@ function Wallet() {
         </div>
     );
 }
-
 function Order() {
     return (
         <div className="Order" id="Ordern">
