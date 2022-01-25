@@ -3,7 +3,7 @@ function UserIconNavs() {
    return (
        <div className="ep">
            <button className="userBox" id='userbutton'>
-           <img src={""} alt="userimage" className="profileImg" onClick={dropdown} />
+           {/* <img src={""} alt="userimage" className="profileImg" onClick={dropdown} /> */}
         </button>
            <div className="links-LogHub" id="menudrop">
                <h1 className='user-name'>Spider Man importer <br />

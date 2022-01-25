@@ -10,7 +10,7 @@ function HomeMain() {
                 </h1>
                 <p className="subHeader">
                     ADC is your number one online <br />
-                    logistics site in Nigeria. transport <br />
+                    logistics site in  transport <br />
                     items with the push of a button <br />
                     anytime anywhere
                 </p>
@@ -39,10 +39,7 @@ function Qualities() {
                     form Day One
                 </h1>
                 <p className="subHeader">
-                    ADC is your number one online <br />
-                    logistics site in Nigeria. transport <br />
-                    items with the push of a button <br />
-                    anytime anywhere
+                    we use state of the act techs to give up smoot and easy exprience
                 </p>
             </div>
             <div className="Qualities-boxes">
@@ -105,7 +102,7 @@ function AboutUS() {
                     <p className="subHeader">
                         
                         <br />
-                        Technology and its application are fundamental at GIGL.
+                        Technology and its application are fundamental at ADCL.
                         We understand the role of technology in providing an
                         exceptional customer experience. For this reason, our
                         processes, products and services are built around modern
@@ -130,10 +127,10 @@ function Services() {
                     <span className="blue-mainHeader">Suits</span> You
                 </h1>
                 <p className="subHeader">
-                    ADC is your number one online <br />
-                    logistics site in Nigeria. transport <br />
-                    items with the push of a button <br />
-                    anytime anywhere
+                    here are some of the services we offer to 
+                    give the best comfort during your transactions with 
+                    us
+                
                 </p>
                 <div className="ServicePoints">
                     <div className="Service-point-wrap">
@@ -153,7 +150,7 @@ function Services() {
                                     </p>
                                     <p className="extra-text">
                                         Technology and its application are
-                                        fundamental at GIGL. We understand the
+                                        fundamental at ADC. We understand the
                                         role of technology in providing an
                                         exceptional customer experience.
                                     </p>
@@ -276,8 +273,12 @@ function Footer(){
                 </div>
                 <div className="rigth">
                     <h1 className="fHeader">Get in Touch</h1>
-                    <div className="icons">
-                        
+                    <p style={{color: 'white'}}>Main branch:  277 Park Ave, New York, NY 10172. USA <br />
+                    +17186184151 (USA branch)</p>
+                    <div className="icons" style={{display:'grid', gridTemplateColumns:'repeat(4, 50px)'}}>
+                        <span class="iconify" data-icon="uil:twitter" style={{color: 'white'}} data-width="30"></span>
+                        <span class="iconify" data-icon="uil:facebook" style={{color: 'white'}} data-width="30"></span>
+                        <span class="iconify" data-icon="uil:instagram" style={{color: 'white'}} data-width="30"></span>
                     </div>
                 </div>
             </div>
