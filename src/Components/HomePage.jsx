@@ -77,10 +77,56 @@ function AboutUS() {
                     Why Should You <br />{" "}
                     <span className="blue-mainHeader">Pick Us</span>
                 </h1>
+                <p className="subHeader" >
+                    ADC is your number one online <br />
+                    logistics site in Nigeria. transport <br />
+                    items with the push of a button <br />
+                    anytime anywhere
+                    <br />
+                    <br />
+                    Technology and its application are fundamental at GIGL.
+                     We understand the role of technology in providing an
+                    
+                    exceptional customer experience. For this reason, our
+                    
+                    processes, products and services are built around modern
+                    
+                    technology to help us deliver your shipments cheaper, safely
+                    
+                    and at the speed of light.
+                </p>
+            </div>
+        </div>
+    );
+}
+function Services() {
+    return (
+        <div className="Services">
+            <div className="Services-wrap">
+                <h1 className="mainHeader">
+                    Services That <br />{" "}
+                    <span className="blue-mainHeader">Suits</span> You
+                </h1>
+                <p className="subHeader">
+                    ADC is your number one online <br />
+                    logistics site in Nigeria. transport <br />
+                    items with the push of a button <br />
+                    anytime anywhere
+                </p>
+                <div className="ServicePoints">
+                    <div className="Service-point-wrap">
+                        <div className="Service-box">
+                            <div className="Service-box-wrap">
+                                <p className="box-service-header">
+                                    
+                                </p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
 }
 
-
-export  {HomeMain, Qualities, AboutUS}
+export  {HomeMain, Qualities, AboutUS, Services} 

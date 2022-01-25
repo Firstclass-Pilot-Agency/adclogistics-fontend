@@ -3,7 +3,7 @@ import './App.css';
 import './Components/Responsive.css';
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import {HomeMain, Qualities, AboutUS} from './Components/HomePage';
+import {HomeMain, Qualities, AboutUS, Services} from './Components/HomePage';
 import { SignIn, SignOTP, SignUpFirst ,SignUpSecond } from './Components/SignAccount';
 import { UserIconNavs } from "./Components/UserIcon";
 import { LogisticsUser } from "./Components/LogisticsUser";
@@ -88,6 +88,7 @@ function Home() {
       <HomeMain />
       <Qualities />
       <AboutUS />
+      <Services />
     </div>
   )
 }

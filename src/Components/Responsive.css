@@ -46,4 +46,19 @@
     }
     .buttonLinks{
   position: relative;}
+  .log-text {
+    color: white;
+    align-self: center;
+    margin-left: 10px;
+    font-size: small;
+}
+.buttonLinks {
+  background: black;
+    width: 250px;
+    align-items: center;
+    display: grid;
+    align-items: center;
+    padding: 0px 35px;
+    height: 100vh;
+}
 }

@@ -184,11 +184,25 @@ body {
 
 /* About Us */
 .AboutUS {
+    padding-top: 100px;
     background-color: white;
+    padding-bottom:100px;
 }
-.AboutUS .AboutUS-wrap .mainHeader {
+.AboutUS .AboutUS-wrap .mainHeader, .AboutUS .AboutUS-wrap .subHeader {
     color: #000000;
+    padding: 0 80px
 }
+
+.Services{
+    padding-top: 100px;
+    background-color: white;
+    padding-bottom:100px;
+}
+
+
+
+
+
 
 /* Sign in or up stylesheet */
 .SignManger {
@@ -353,7 +367,7 @@ body {
     background: white;
 }
 .buttonLinks {
-  background: black;
+    background: black;
     position: absolute;
     width: 250px;
     display: grid;
@@ -362,8 +376,11 @@ body {
     height: 100%;
     display: none;
 }
-.bttn-link-log-active {
+.active {
+    text-align: left;
+    width: 100%;
     height: 45px;
+    border: none;
     background: #20a4fd;
     display: grid;
     grid-template-columns: 30px 2fr;
@@ -376,7 +393,10 @@ body {
     padding-left: 15px;
     margin: 10px 0;
 }
-.bttn-link-log-inactive {
+.bttn-link-log {
+    text-align: left;
+    width: 100%;
+    border: none;
     height: 45px;
     background: rgba(32, 165, 253, 0);
     display: grid;
@@ -390,7 +410,7 @@ body {
     padding-left: 15px;
     margin: 10px 0;
 }
-.bttn-link-log-inactive:hover {
+.bttn-link-log:hover {
     background: rgba(32, 165, 253, 0.289);
 }
 .log-text {
@@ -409,7 +429,6 @@ body {
     font-size: 20px;
 }
 .EditSection {
-    
     padding-top: 20vh;
 }
 .CardWrap {
@@ -417,59 +436,93 @@ body {
     box-shadow: 10px 10px 20px gray;
     width: 300px;
     height: 160px;
-    background-image: linear-gradient(45deg ,#20a4fd ,yellow);
+    background-image: linear-gradient(45deg, #20a4fd, yellow);
     border-radius: 10px;
-    overflow:hidden;
+    overflow: hidden;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    
 }
-.stylBoxes{
-  display: flex;
-  width: 300px;
+.stylBoxes {
+    display: flex;
+    width: 300px;
     height: 160px;
     overflow: hidden;
 }
-.box1{
-  height: 200px ;
-  width: 200px;
-  background: black;
-  transform: rotateZ(45deg) translateX(-60px) translateY(30px);
-  -webkit-transform: rotateZ(45deg) translateX(-60px) translateY(30px);
-  -moz-transform: rotateZ(45deg) translateX(-60px) translateY(30px);
-  -ms-transform: rotateZ(45deg) translateX(-60px) translateY(30px);
-  -o-transform: rotateZ(45deg) translateX(-60px) translateY(30px);
-  border-radius: 40px;
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  -ms-border-radius: 40px;
-  -o-border-radius: 40px;
+.box1 {
+    height: 200px;
+    width: 200px;
+    background: black;
+    transform: rotateZ(45deg) translateX(-60px) translateY(30px);
+    -webkit-transform: rotateZ(45deg) translateX(-60px) translateY(30px);
+    -moz-transform: rotateZ(45deg) translateX(-60px) translateY(30px);
+    -ms-transform: rotateZ(45deg) translateX(-60px) translateY(30px);
+    -o-transform: rotateZ(45deg) translateX(-60px) translateY(30px);
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
 }
-.box2{
-  height: 130px ;
-  width: 130px;
-  background: black;
-  border-radius: 40px;
-  transform: rotateZ(45deg) translateX(70px) translateY(40px);
-  -webkit-transform: rotateZ(45deg) translateX(70px) translateY(40px);
-  -moz-transform: rotateZ(45deg) translateX(70px) translateY(40px);
-  -ms-transform: rotateZ(45deg) translateX(70px) translateY(40px);
-  -o-transform: rotateZ(45deg) translateX(70px) translateY(40px);
+.box2 {
+    height: 130px;
+    width: 130px;
+    background: black;
+    border-radius: 40px;
+    transform: rotateZ(45deg) translateX(70px) translateY(40px);
+    -webkit-transform: rotateZ(45deg) translateX(70px) translateY(40px);
+    -moz-transform: rotateZ(45deg) translateX(70px) translateY(40px);
+    -ms-transform: rotateZ(45deg) translateX(70px) translateY(40px);
+    -o-transform: rotateZ(45deg) translateX(70px) translateY(40px);
 }
-.content{
-  position: absolute;
-  transform: translateY(-75px);
-  -webkit-transform: translateY(-75px);
-  -moz-transform: translateY(-75px);
-  -ms-transform: translateY(-75px);
-  -o-transform: translateY(-75px);
-  margin-left: 20px;
+.content {
+    position: absolute;
+    transform: translateY(-75px);
+    -webkit-transform: translateY(-75px);
+    -moz-transform: translateY(-75px);
+    -ms-transform: translateY(-75px);
+    -o-transform: translateY(-75px);
+    margin-left: 20px;
 }
-.cardidnumber, .amountinCard{
-  color: white
+.cardidnumber,
+.amountinCard {
+    color: white;
 }
-.dashboard{
-  padding: 0 40px;
+.dashboard {
+    padding: 0 40px;
+    height: 100vh;
 }
+
+.Wallet {
+    height: 100vh;
+    padding: 0 40px;
+}
+.b-wrap {
+    width: 300px;
+}
+.butt-b {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+}
+.Balance {
+    background: rgba(0, 0, 0, 0.178);
+    margin-top: 10px;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.lastdate {
+    text-align: right;
+    padding-top: 20px;
+    align-items: baseline;
+}
+.Title-log{
+    text-align:center;
+}
+
