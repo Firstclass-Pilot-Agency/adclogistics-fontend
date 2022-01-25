@@ -142,5 +142,7 @@
         -ms-transform: translateX(100px);
         -o-transform: translateX(100px);
 }
-
+/* .dropdown{
+    display:none;
+} */
 }

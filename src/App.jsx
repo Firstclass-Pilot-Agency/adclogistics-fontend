@@ -50,7 +50,7 @@ function NavBar() {
       <div className="NavBar">
           <div className="nav-wrapper">
               <div className="logo-section">
-                  <img src={logo} alt="" className="logo-main" />
+                  <Link to="/"><img src={logo} alt="" className="logo-main" /></Link>
               </div>
               <div className="links-section">
                   <div className="links-section-wrapper">
@@ -80,6 +80,20 @@ function NavBar() {
                           className="iconify-inline"
                           data-icon="bx:bx-menu"
                       ></span>
+                      <div className="dropdown">
+                          <a href="#" className="link-nav-drop">
+                              About us
+                          </a>
+                          <a href="#" className="link-nav-drop">
+                              Services
+                          </a>
+                          <a href="#" className="link-nav-drop">
+                              Locations
+                          </a>
+                          <a href="#" className="link-nav-drop">
+                              Contacts
+                          </a>
+                      </div>
                   </div>
               </div>
           </div>
