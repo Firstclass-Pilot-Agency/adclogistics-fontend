@@ -35,7 +35,7 @@
         grid-template-columns: 2fr 1fr;
     }
     .S-box {
-        padding: 40px 60px;
+        padding: 40px 50px;
         width: 35vw;
         transition: 2s;
         -webkit-transition: 2s;
@@ -49,7 +49,7 @@
         height: 100vh;
     }
     .buttonLinks {
-        position: relative;
+        position: unset;
     }
     .log-text {
         color: white;
@@ -101,39 +101,37 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .Services{
+    .Services {
         padding: 0 80px;
-    padding-top: 100px;
-    background-color: white;
-    padding-bottom:100px;
-    
-}
-    .Service-point-wrap{
+        padding-top: 100px;
+        background-color: white;
+        padding-bottom: 100px;
+    }
+    .Service-point-wrap {
         display: grid;
         justify-content: center;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        
     }
-    .AboutUS-wrap{
-        display:grid;
+    .AboutUS-wrap {
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .cans .subHeader{
+    .cans .subHeader {
         font-size: medium;
     }
-    .cans .mainHeader{
-        font-size:48px;
+    .cans .mainHeader {
+        font-size: 48px;
     }
-    .aleft{
+    .aleft {
         height: 100vh;
         display: grid;
         align-items: center;
     }
-    .cans{
-        height:fit-content;
+    .cans {
+        height: fit-content;
         background: white;
         box-shadow: 5px 5px 60px;
-        padding:40px 0;
+        padding: 40px 0;
         padding-right: 100px;
         padding-left: 70px;
         transform: translateX(100px);
@@ -141,6 +139,36 @@
         -moz-transform: translateX(100px);
         -ms-transform: translateX(100px);
         -o-transform: translateX(100px);
+<<<<<<< HEAD
 }
 
+=======
+    }
+    .w-box {
+    background: rgba(0, 0, 0, 0.178);
+    margin: 0;
+margin-top: 10px;}
+    .wrap {
+        display: grid;
+        grid-template-areas:
+            "tt tt cc cc"
+            "bb bb rr rr"
+            "uu uu rr rr";
+    }
+    .Title-log {
+        grid-area: tt;
+    }
+    #w-bal {
+        grid-area: bb;
+    }
+    #w-Card {
+        grid-area: cc;
+    }
+    #w-fund {
+        grid-area: uu;
+    }
+    #w-trans {
+        grid-area: rr;
+    }
+>>>>>>> 0f7e2064540db9f51a8627c21379759935d6a297
 }

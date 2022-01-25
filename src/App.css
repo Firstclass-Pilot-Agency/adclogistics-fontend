@@ -396,11 +396,14 @@ body {
     display: grid;
     justify-content: center;
 }
-
+.otp-wrap-inner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 .OTP-box {
     margin: 10px;
-    width: 50px;
-    height: 60px;
+    width: 40px;
+    height: 50px;
     font-size: x-large;
     text-align: center;
     color: white;
@@ -465,6 +468,7 @@ body {
 }
 .EditSection {
     background: white;
+    overflow-y: scroll;
 }
 .buttonLinks {
     background: black;
@@ -521,6 +525,13 @@ body {
 }
 .iconify-inline[data-icon="bx:bx-menu"] {
     font-size: 30px;
+}
+.signlogo{
+    width:50px;
+}
+.iconify-inline[data-icon="uil:arrow-left"] {
+    font-size: 30px;
+    color:black;
 }
 .iconify-inline[data-icon="bx:bxs-dashboard"],
 .iconify-inline[data-icon="fluent:arrow-trending-16-filled"],
@@ -605,6 +616,7 @@ body {
 }
 .w-box {
     background: rgba(0, 0, 0, 0.178);
+    margin: auto;
     margin-top: 10px;
     width: fit-content;
     padding: 20px;
@@ -719,3 +731,6 @@ body {
   display: inline-block;
 }
 .HamMenu:hover .dropdown{display: block;}
+
+
+/* grid layout Wallet */

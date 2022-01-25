@@ -1,15 +1,22 @@
 // all sign section are separated for easy management
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
+import logo from "../images/Logo.png";
 function SignIn() {
     return (
         <div className="SignManger">
             <div className="S-box" id="sign-in">
                 <div className="s-wrap">
                     <div className="s-top">
-                        <img src="" alt="Company Logo" />
+                        <img
+                            src={logo}
+                            alt="Company Logo"
+                            className="signlogo"
+                        />
                         <Link to="/" className="back-sign">
-                            <img src="" alt="back" className="back-sign-img" />
+                            <span
+                                className="iconify-inline"
+                                data-icon="uil:arrow-left"
+                            ></span>
                         </Link>
                     </div>
 
@@ -70,19 +77,24 @@ function SignUpFirst() {
             <div className="S-box" id="sign-first">
                 <div className="s-wrap">
                     <div className="s-top">
-                        <img src="" alt="Company Logo" />
-                        <Link to="/Accounts/SignIn" className="back-sign">
-                            <img src="" alt="back" className="back-sign-img" />
+                        <img
+                            src={logo}
+                            alt="Company Logo"
+                            className="signlogo"
+                        />
+                        <Link to="/" className="back-sign">
+                            <span
+                                className="iconify-inline"
+                                data-icon="uil:arrow-left"
+                            ></span>
                         </Link>
                     </div>
-
                     <div className="S-title-wrap">
                         <h1 className="s-Header">Sign up</h1>
                         <p className="s-sub">
                             into a new account to get started
                         </p>
                     </div>
-
                     <div className="inputWrap">
                         <form action="">
                             <div className="input-">
@@ -134,9 +146,16 @@ function SignUpSecond() {
             <div className="S-box" id="sign-second">
                 <div className="s-wrap">
                     <div className="s-top">
-                        <img src="" alt="Company Logo" />
-                        <Link to="/Account/SignUp-SecondStep" className="back-sign">
-                            <img src="" alt="back" className="back-sign-img" />
+                        <img
+                            src={logo}
+                            alt="Company Logo"
+                            className="signlogo"
+                        />
+                        <Link to="/" className="back-sign">
+                            <span
+                                className="iconify-inline"
+                                data-icon="uil:arrow-left"
+                            ></span>
                         </Link>
                     </div>
 
@@ -198,12 +217,16 @@ function SignOTP() {
             <div className="S-box" id="sign-otp">
                 <div className="s-wrap">
                     <div className="s-top">
-                        <img src="" alt="Company Logo" />
-                        <Link
-                            to="/Account/SignUp-SecondStep"
-                            className="back-sign"
-                        >
-                            <img src="" alt="back" className="back-sign-img" />
+                        <img
+                            src={logo}
+                            alt="Company Logo"
+                            className="signlogo"
+                        />
+                        <Link to="/" className="back-sign">
+                            <span
+                                className="iconify-inline"
+                                data-icon="uil:arrow-left"
+                            ></span>
                         </Link>
                     </div>
 
@@ -220,25 +243,25 @@ function SignOTP() {
                                         type="text"
                                         name=""
                                         id="OTP-first"
-                                        class="OTP-box"
+                                        className="OTP-box"
                                     />
                                     <input
                                         type="text"
                                         name=""
                                         id="OTP-first"
-                                        class="OTP-box"
+                                        className="OTP-box"
                                     />
                                     <input
                                         type="text"
                                         name=""
                                         id="OTP-first"
-                                        class="OTP-box"
+                                        className="OTP-box"
                                     />
                                     <input
                                         type="text"
                                         name=""
                                         id="OTP-first"
-                                        class="OTP-box"
+                                        className="OTP-box"
                                     />
                                 </div>
                             </div>
