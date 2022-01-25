@@ -61,4 +61,38 @@
     padding: 0px 35px;
     height: 100vh;
 }
+.Footer{
+    background: black;
+    display: grid;
+    padding: 50px 100px;
+}
+.footer-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.SecondFooter{
+    margin-top: 0px;
+}
+.subs-footer{
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.rigth{
+    display: grid;
+    justify-content: right;
+}
+.Title-log{
+    text-align:left;
+}
+.CardWrap {
+    margin: 30px 0;}
+    .b-text-sub{
+        font-size: small;
+    }
+    .left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 }

@@ -110,6 +110,7 @@ body {
 .mainHeader {
     text-align: center;
     color: white;
+    text-transform: uppercase;
 }
 .blue-mainHeader {
     color: #20a4fd;
@@ -201,6 +202,45 @@ body {
 
 
 
+/* Footer  */
+.Footer{
+    background: black;
+    display: grid;
+   padding: 50px 40px;
+}
+.footer-wraper{
+    display: block;
+}
+.left{
+    display: block;
+    grid-template-columns: 1fr 1fr;
+}
+.FirstFooter p{
+    color:white;
+    font-size: medium;
+}
+.footerLogo{
+    width: 80px;
+}
+.subs-footer{
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.SecondFooter{
+    margin-bottom: 40px;
+}
+.fHeader{
+    font-size: large;
+    color:gray;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.SecondFooter{
+    margin-top: 30px;
+}
 
 
 
@@ -432,7 +472,7 @@ body {
     padding-top: 20vh;
 }
 .CardWrap {
-    margin-top: 30px;
+    margin: 30px auto;
     box-shadow: 10px 10px 20px gray;
     width: 300px;
     height: 160px;
@@ -495,27 +535,25 @@ body {
 }
 
 .Wallet {
-    height: 100vh;
     padding: 0 40px;
 }
-.b-wrap {
-    width: 300px;
-}
+
 .butt-b {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 30px;
 }
-.Balance {
+.w-box {
     background: rgba(0, 0, 0, 0.178);
     margin-top: 10px;
     width: fit-content;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    width: 300px;
 }
 .lastdate {
     text-align: right;
@@ -526,3 +564,13 @@ body {
     text-align:center;
 }
 
+.paylinks{
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+}
+.b-text-sub{
+        font-size: small;
+    }
+
+    

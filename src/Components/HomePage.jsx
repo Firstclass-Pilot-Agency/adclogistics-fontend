@@ -1,3 +1,4 @@
+import logo from "../images/Logo.png";
 function HomeMain() {
     return (
         <div className="HomeMain">
@@ -129,4 +130,54 @@ function Services() {
     );
 }
 
-export  {HomeMain, Qualities, AboutUS, Services} 
+function Faq() {
+    return (
+        <div className="Faqs">
+            <div className="faqs-wraper">
+                <h1 className="mainHeader">
+                    Services That <br />{" "}
+                    <span className="blue-mainHeader">Suits</span> You
+                </h1>
+                <p className="subHeader">
+                    ADC is your number one online <br />
+                    logistics site in Nigeria. transport <br />
+                    items with the push of a button <br />
+                    anytime anywhere
+                </p>
+            </div>
+        </div>
+    );
+}
+
+function Comments() {
+    
+}
+
+function Footer(){
+    return (
+        <div className="Footer">
+            <div className="footer-wraper">
+                <div className="left">
+                    <div className="FirstFooter">
+                        <img src={logo} alt="" className="footerLogo" />
+                        <p>© 2022 ADC Logistics</p>
+                    </div>
+                    <div className="SecondFooter">
+                        <h1 className="fHeader">Company</h1>
+                        <p className="subs-footer">About us</p>
+                        <p className="subs-footer">Location</p>
+                        <p className="subs-footer">Services</p>
+                        <p className="subs-footer">Terms and Conditions</p>
+                    </div>
+                </div>
+                <div className="rigth">
+                    <h1 className="fHeader">Get in Touch</h1>
+                    <div className="icons">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+export  {HomeMain, Qualities, AboutUS, Services, Faq, Comments,Footer} 
