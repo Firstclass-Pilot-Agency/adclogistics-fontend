@@ -19,6 +19,12 @@ function LogisticsUser() {
                             </div>
                         </div>
                     </div>
+
+                    <div className="orderinfo">
+                        <div className="noidgiven">
+                            <h1 style={{fontSize:'18px', color:'gray' } }>No Tracking Id Given <span style={{fontSize:'13px', color:'rgb(230, 230, 230'  }}><p>enter an id to track</p></span> </h1>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

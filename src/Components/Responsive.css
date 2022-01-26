@@ -154,5 +154,11 @@
     .comment{
         font-size: 15px;
     }
-
+    .Order{
+        width: 60vw;
+        height: fit-content;
+        padding: 20px 5vw;
+        box-shadow: 0px 0px 15px 2px rgb(211, 211, 211);
+        border-radius: 10px;
+    }
 }
