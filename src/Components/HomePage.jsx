@@ -251,11 +251,14 @@ function Footer(){
                 </div>
                 <div className="rigth">
                     <h1 className="fHeader">Get in Touch</h1>
-                    <p style={{color: 'white'}}>Main branch:  277 Park Ave, New York, NY 10172. USA <br /><br />
+                    <p style={{color: 'white'}}>Main office address: 325 West 38th Street, Garment District, New York, NY USA <br/>
+Branch office address: King Fahed Road, Tamkeen Tower, 6th floor, Riyadh, Saudi Arabia <br /><br />
                     +17186184151 (USA branch)<br /> 
                     +17186184151<br/>
                     +965 655525367 <br/>
                     +966 50 555 250</p>
+                    <br />
+                    <a href="mailto:dispatch@airsydelivery.com" style={{color: 'white'}}>dispatch@airsydelivery.com</a>
                     <br />
                     <div className="icons" style={{display:'grid', gridTemplateColumns:'repeat(4, 50px)'}}>
                         <span className="iconify" data-icon="uil:twitter" style={{color: 'white'}} data-width="30"></span>
