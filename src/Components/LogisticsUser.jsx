@@ -29,7 +29,7 @@ function LogisticsUser() {
                     <div className="addOrder">
                         <div className="pluswrap">
                             <div className="plusbox">
-                                <span class="iconify" style={{display:'inline'} } data-icon="uil:plus" data-width="25"></span>
+                                <span className="iconify" style={{display:'inline'} } data-icon="uil:plus" data-width="25"></span>
                             </div>
                         </div>
                         

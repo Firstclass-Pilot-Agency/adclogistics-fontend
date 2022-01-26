@@ -740,13 +740,16 @@ body {
     padding-bottom: 200px;
 }
 .t-box{
-    height: 300px;
+    height: fit-content;
     width: 250px;
     background-color: white;
-    box-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 20px;
+    border-radius: 10px;
+    
 }
 .t-wrap-box{
-    padding: 15px;
+    padding: 20px;
+    padding-bottom: 40px;
 }
 .t-name{
     font-size: 25px;
@@ -768,13 +771,19 @@ body {
     display: grid;
     grid-template-columns: 40px 1fr;
 }
+.img-tests img{
+    width: 100%;
+    
+}
 .img-tests{
+    overflow: hidden;
     height: 50px;
     width: 50px;
     background-color: gray;
     margin: 10px 0;
     margin-top: 12px;
     background-size: cover;
+    border-radius: 5px;
 }
 #a{
     background: url(https://unsplash.com/photos/ILip77SbmOE);
