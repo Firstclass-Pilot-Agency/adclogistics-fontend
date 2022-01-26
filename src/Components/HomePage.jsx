@@ -274,7 +274,7 @@ function Footer(){
                 <div className="rigth">
                     <h1 className="fHeader">Get in Touch</h1>
                     <p style={{color: 'white'}}>Main branch:  277 Park Ave, New York, NY 10172. USA <br /><br />
-                    +17186184151 (USA branch)
+                    +17186184151 (USA branch)<br /> 
                     +17186184151<br/>
                     +965 655525367 <br/>
                     +966 50 555 250</p>

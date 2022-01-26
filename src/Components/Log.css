@@ -1,9 +1,42 @@
 .LogPage{
-    height: 10vh;
+    height: 87vh;
     background-color: white;
     margin-top: 13vh;
+    padding: 0;
+}
+.overview{
+    padding:10px 20px;
+    color: white;
+    background: black;
+}
+.orders{
+    padding: 10px 10px;
+    display: grid;
+    justify-content: center;
 }
 .log-wrap{
     display: grid;
-    grid-template-columns: 2fr 1fr ;
+    grid-template-columns: 2fr 2fr 600px;
 }
+.moreinfo{
+    background: black;
+    height: 87vh;
+}
+.Order-boxitem{
+    width: 300px;
+    height: fit-content;
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    border: none;
+    border-radius: 6px;
+}
+.Order-boxitem h1{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+#drop{
+    display: none;
+}
+.show {display:block;}
