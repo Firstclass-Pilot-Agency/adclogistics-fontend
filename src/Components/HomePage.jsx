@@ -173,7 +173,7 @@ function Services() {
                                     </p>
                                     <p className="extra-text">
                                         Technology and its application are
-                                        fundamental at GIGL. We understand the
+                                        fundamental at ADC. We understand the
                                         role of technology in providing an
                                         exceptional customer experience.
                                     </p>
@@ -196,7 +196,7 @@ function Services() {
                                     </p>
                                     <p className="extra-text">
                                         Technology and its application are
-                                        fundamental at GIGL. We understand the
+                                        fundamental at ADC. We understand the
                                         role of technology in providing an
                                         exceptional customer experience.
                                     </p>
@@ -216,7 +216,7 @@ function Services() {
                                     </p>
                                     <p className="extra-text">
                                         Technology and its application are
-                                        fundamental at GIGL. We understand the
+                                        fundamental at ADC. We understand the
                                         role of technology in providing an
                                         exceptional customer experience.
                                     </p>
@@ -230,6 +230,69 @@ function Services() {
     );
 }
 
+function Testmo(){
+    return(
+        <div className="Testmo">
+        <div className="Services-wrap">
+                <h1 className="mainHeader">
+                    Meet Our<br />{" "}
+                    <span className="blue-mainHeader">Happy </span>Customers
+                </h1>
+                <p className="subHeader">
+                   you comfort and happiness why you work with us is priceless.
+                
+                </p>
+
+                <div className="tests">
+                    <div className="t-wrap">
+                        <div className="t-box">
+                            <div className="t-wrap-box">
+                                <div className="img">
+                                    <img src="" alt="" />
+                                    <div className="t-name">
+                                        Mike Armoos
+                                    </div>
+                                    <div className="comment">
+                                        work with ADC has been a game changer for me and my startup company
+                                    by making transpotation of goods safe smooth and easy.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="t-box">
+                            <div className="t-wrap-box">
+                                <div className="img">
+                                    <img src="" alt="" />
+                                    <div className="t-name">
+                                        Mike Armoos
+                                    </div>
+                                    <div className="comment">
+                                        work with ADC has been a game changer for me and my startup company
+                                    by making transpotation of goods safe smooth and easy.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="t-box">
+                            <div className="t-wrap-box">
+                                <div className="img">
+                                    <img src="" alt="" />
+                                    <div className="t-name">
+                                        Mike Armoos
+                                    </div>
+                                    <div className="comment">
+                                        work with ADC has been a game changer for me and my startup company
+                                    by making transpotation of goods safe smooth and easy.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
 
 
 function Footer(){
@@ -251,13 +314,37 @@ function Footer(){
                 </div>
                 <div className="rigth">
                     <h1 className="fHeader">Get in Touch</h1>
-                    <p style={{color: 'white'}}>Main office address: 325 West 38th Street, Garment District, New York, NY USA <br/>
-Branch office address: King Fahed Road, Tamkeen Tower, 6th floor, Riyadh, Saudi Arabia <br /><br />
-                    +17186184151 (USA branch)<br /> 
-                    +17186184151<br/>
-                    +965 655525367 <br/>
-                    +966 50 555 250</p>
-                    <br />
+                    <p style={{color: 'white'}}>Main office address: 325 West 38th Street, Garment District, New York, NY USA</p>
+                    <p style={{
+                        color:'white',
+                    }}>Branch office address: King Fahed Road, Tamkeen Tower, 6th floor, Riyadh, Saudi Arabia </p>
+
+                    <br /><br/>
+                    <div className="c-box">
+                        <div className="c-left">
+                            
+                        </div>
+                        <div className="c-right">
+                                <p style={{
+                                color:'white',
+                                fontSize:'small'
+                            }}>+17186184151 (USA branch) </p>
+                            <p style={{
+                                color:'white',
+                                fontSize:'small'
+                            }}>+17186184151 </p>
+                            <p style={{
+                                color:'white',
+                                fontSize:'small'
+                            }}>+965 655525367  </p>
+                            <p style={{
+                                color:'white',
+                                fontSize:'small'
+                            }}>+966 50 555 250 </p>
+                            <br />
+                        </div>
+                    </div>
+                    
                     <a href="mailto:dispatch@airsydelivery.com" style={{color: 'white'}}>dispatch@airsydelivery.com</a>
                     <br />
                     <div className="icons" style={{display:'grid', gridTemplateColumns:'repeat(4, 50px)'}}>
@@ -270,4 +357,4 @@ Branch office address: King Fahed Road, Tamkeen Tower, 6th floor, Riyadh, Saudi 
         </div>
     );
 }
-export  {HomeMain, Qualities, AboutUS, Services, Footer} 
+export  {HomeMain, Qualities, AboutUS,Testmo, Services, Footer} 

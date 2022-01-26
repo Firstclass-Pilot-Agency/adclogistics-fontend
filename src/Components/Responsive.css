@@ -140,4 +140,18 @@
         -ms-transform: translateX(100px);
         -o-transform: translateX(100px);
     }
+
+    .t-wrap{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .t-box{
+        height: 260px;
+        width: 250px;
+        background-color: white;
+        box-shadow: 2px 2px 5px;
+    }
+    .comment{
+        font-size: 15px;
+    }
 }
