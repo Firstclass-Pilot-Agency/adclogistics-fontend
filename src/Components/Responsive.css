@@ -69,7 +69,7 @@
     .Footer {
         background: black;
         display: grid;
-        padding: 50px 100px;
+        padding: 50px 50px;
     }
     .footer-wraper {
         display: grid;
