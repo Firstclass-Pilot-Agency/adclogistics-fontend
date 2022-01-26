@@ -230,29 +230,7 @@ function Services() {
     );
 }
 
-function Faq() {
-    return (
-        <div className="Faqs">
-            <div className="faqs-wraper">
-                div.wleft
-                <h1 className="mainHeader">
-                    Services That <br />{" "}
-                    <span className="blue-mainHeader">Suits</span> You
-                </h1>
-                <p className="subHeader">
-                    ADC is your number one online <br />
-                    logistics site in Nigeria. transport <br />
-                    items with the push of a button <br />
-                    anytime anywhere
-                </p>
-            </div>
-        </div>
-    );
-}
 
-function Comments() {
-    
-}
 
 function Footer(){
     return (
@@ -273,8 +251,14 @@ function Footer(){
                 </div>
                 <div className="rigth">
                     <h1 className="fHeader">Get in Touch</h1>
-                    <p style={{color: 'white'}}>Main branch:  277 Park Ave, New York, NY 10172. USA <br /><br />
-                    +17186184151 (USA branch)</p>
+                    <p style={{color: 'white'}}>Main office address: 325 West 38th Street, Garment District, New York, NY USA <br/>
+Branch office address: King Fahed Road, Tamkeen Tower, 6th floor, Riyadh, Saudi Arabia <br /><br />
+                    +17186184151 (USA branch)<br /> 
+                    +17186184151<br/>
+                    +965 655525367 <br/>
+                    +966 50 555 250</p>
+                    <br />
+                    <a href="mailto:dispatch@airsydelivery.com" style={{color: 'white'}}>dispatch@airsydelivery.com</a>
                     <br />
                     <div className="icons" style={{display:'grid', gridTemplateColumns:'repeat(4, 50px)'}}>
                         <span className="iconify" data-icon="uil:twitter" style={{color: 'white'}} data-width="30"></span>
@@ -286,4 +270,4 @@ function Footer(){
         </div>
     );
 }
-export  {HomeMain, Qualities, AboutUS, Services, Faq, Comments,Footer} 
+export  {HomeMain, Qualities, AboutUS, Services, Footer} 

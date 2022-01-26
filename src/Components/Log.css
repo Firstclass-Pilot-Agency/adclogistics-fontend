@@ -1,4 +1,86 @@
+.LogPage{
+    height: 87vh;
+    background-color: white;
+    margin-top: 13vh;
+    padding: 0;
+}
+.overview{
+    padding:10px 20px;
+    color: white;
+    background: black;
+}
+.orders{
+    display: grid;
+    padding: 10px 10px;
+    justify-content: center;
+    height: 87vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+.wrap-o{
+    width: fit-content;
+    justify-items: center;
+}
 .log-wrap{
     display: grid;
-    grid-template-columns: 2fr 1fr ;
+    grid-template-columns: 2fr 2fr 400px;
+}
+.moreinfo{
+    background: black;
+    height: 87vh;
+}
+.Order-boxitem{
+    width: 300px;
+    height: fit-content;
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    border: none;
+    border-radius: 6px;
+    margin: auto;
+}
+.Order-boxitem h1{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.extrainfo{
+    margin-top: 20px;
+}
+.progressBar{
+    width:100%;
+    background: rgba(128, 128, 128, 0.342);
+    border-radius: 100px;
+    overflow: hidden;
+}
+.status{
+    margin-top: 20px;
+}
+.bar{
+    width: 10%;
+    height: 5px;
+    background: white;
+}
+.stats{
+    width: fit-content;
+    padding: 7px 10px;
+    display: inline;
+    float: right;
+    color:black;
+    font-size: small;
+    font-weight: 500;
+    border-radius: 100px;
+}
+.tpsec-pack{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.quickinfo{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.quickinfo p{
+    align-self: center;
 }
