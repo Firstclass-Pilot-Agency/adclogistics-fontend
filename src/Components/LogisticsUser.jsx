@@ -11,7 +11,20 @@ function LogisticsUser() {
                     <p>here is an overview of the activities on your account</p>
                 </div>
                 <div className="orders">
-                    <TrackingBoxitems Title='Package 1' PackInfo='big' TrackingId='#207709749034' Status='motion' describePack='12 set of exotic wine'/>
+                    <div className="wrap-o">
+                        <div className="track-button" style={{background: 'black',margin:'auto', marginTop:'0', marginBottom:"20px", width: 'fit-content'}}>
+                            <div className="input-tracking" style={{background: 'black',}}>
+                                <input type="text" name="" id="id-inputs" placeholder='Enter Tracking ID'/>
+                                <div className="button-signin">
+                                    <a href="#" className="link-nav-button">Search</a>
+                                </div>
+                            </div>
+                        </div>
+                        <TrackingBoxitems Title='Package 1' PackInfo='big' TrackingId='#207709749034' Status='motion' describePack='12 set of exotic wine'/>
+                        <TrackingBoxitems Title='Package 1' PackInfo='big' TrackingId='#207709749034' Status='motion' describePack='12 set of exotic wine'/>
+                        <TrackingBoxitems Title='Package 2' PackInfo='big' TrackingId='#207709749034' Status='done' describePack='10 set of exotic nike shoes '/>
+                    </div>
+                    
                 </div>
                 <div className="moreinfo">
                     <div className="boxinfo"></div>
