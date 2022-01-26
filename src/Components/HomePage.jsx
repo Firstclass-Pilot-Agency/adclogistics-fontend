@@ -3,26 +3,26 @@ function HomeMain() {
     return (
         <div className="HomeMain">
             <div className="HomeMain-overlay">
-            <div className="HomeMain-wrap">
-                <h1 className="mainHeader">
-                    The New <span className="blue-mainHeader">Definition</span>{" "}
-                    <br /> of Logistics
-                </h1>
-                <p className="subHeader">
-                    ADC is your number one online <br />
-                    logistics site in  transport <br />
-                    items with the push of a button <br />
-                    anytime anywhere
-                </p>
-                <div className="track-button">
-                    <div className="input-tracking">
-                        <input type="text" name="" id="id-inputs" placeholder='Enter Tracking ID'/>
-                        <div className="button-signin">
-                            <a href="#" className="link-nav-button">Search</a>
+                <div className="HomeMain-wrap">
+                    <h1 className="mainHeader">
+                        The New <span className="blue-mainHeader">Definition</span>{" "}
+                        <br /> of Logistics
+                    </h1>
+                    <p className="subHeader">
+                        ADC is your number one online <br />
+                        logistics site in  transport <br />
+                        items with the push of a button <br />
+                        anytime anywhere
+                    </p>
+                    <div className="track-button">
+                        <div className="input-tracking">
+                            <input type="text" name="" id="id-inputs" placeholder='Enter Tracking ID' />
+                            <div className="button-signin">
+                                <a href="#" className="link-nav-button">Search</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
     );
@@ -96,19 +96,19 @@ function AboutUS() {
                 <div className="aleft">
                     <div className="cans">
                         <h1 className="mainHeader">
-                        Why Should You <br />{" "}
-                        <span className="blue-mainHeader">Pick Us</span>
-                    </h1>
-                    <p className="subHeader">
-                        
-                        <br />
-                        Technology and its application are fundamental at ADCL.
-                        We understand the role of technology in providing an
-                        exceptional customer experience. For this reason, our
-                        processes, products and services are built around modern
-                        technology to help us deliver your shipments cheaper,
-                        safely and at the speed of light.
-                    </p>
+                            Why Should You <br />{" "}
+                            <span className="blue-mainHeader">Pick Us</span>
+                        </h1>
+                        <p className="subHeader">
+
+                            <br />
+                            Technology and its application are fundamental at ADCL.
+                            We understand the role of technology in providing an
+                            exceptional customer experience. For this reason, our
+                            processes, products and services are built around modern
+                            technology to help us deliver your shipments cheaper,
+                            safely and at the speed of light.
+                        </p>
                     </div>
                 </div>
                 <div className="right">
@@ -127,10 +127,10 @@ function Services() {
                     <span className="blue-mainHeader">Suits</span> You
                 </h1>
                 <p className="subHeader">
-                    here are some of the services we offer to 
-                    give the best comfort during your transactions with 
+                    here are some of the services we offer to
+                    give the best comfort during your transactions with
                     us
-                
+
                 </p>
                 <div className="ServicePoints">
                     <div className="Service-point-wrap">
@@ -173,7 +173,7 @@ function Services() {
                                     </p>
                                     <p className="extra-text">
                                         Technology and its application are
-                                        fundamental at GIGL. We understand the
+                                        fundamental at ADC. We understand the
                                         role of technology in providing an
                                         exceptional customer experience.
                                     </p>
@@ -196,7 +196,7 @@ function Services() {
                                     </p>
                                     <p className="extra-text">
                                         Technology and its application are
-                                        fundamental at GIGL. We understand the
+                                        fundamental at ADC. We understand the
                                         role of technology in providing an
                                         exceptional customer experience.
                                     </p>
@@ -208,7 +208,7 @@ function Services() {
                                 <div className="Service-box-wrap">
                                     <div className="foricon">
                                         <span className="iconify" data-icon="ph:package-bold"
-                                        id="i-eeone"></span>
+                                            id="i-eeone"></span>
                                     </div>
                                     <p className="box-service-header">
                                         {" "}
@@ -216,7 +216,7 @@ function Services() {
                                     </p>
                                     <p className="extra-text">
                                         Technology and its application are
-                                        fundamental at GIGL. We understand the
+                                        fundamental at ADC. We understand the
                                         role of technology in providing an
                                         exceptional customer experience.
                                     </p>
@@ -230,9 +230,72 @@ function Services() {
     );
 }
 
+function Testmo() {
+    return (
+        <div className="Testmo">
+            <div className="Services-wrap">
+                <h1 className="mainHeader">
+                    Meet Our<br />{" "}
+                    <span className="blue-mainHeader">Happy </span>Customers
+                </h1>
+                <p className="subHeader">
+                    you comfort and happiness why you work with us is priceless.
+
+                </p>
+
+                <div className="tests">
+                    <div className="t-wrap">
+                        <div className="t-box">
+                            <div className="t-wrap-box">
+                                <div className="img">
+                                <div className="img-tests"id="c"></div>
+                                    <div className="t-name">
+                                        Mike Armoos
+                                    </div>
+                                    <div className="comment">
+                                        work with ADC has been a game changer for me and my startup company
+                                        by making transpotation of goods safe smooth and easy.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="t-box">
+                            <div className="t-wrap-box">
+                                <div className="img">
+                                    <div className="img-tests"id="b"></div>
+                                    <div className="t-name">
+                                        Mike Armoos
+                                    </div>
+                                    <div className="comment">
+                                        work with ADC has been a game changer for me and my startup company
+                                        by making transpotation of goods safe smooth and easy.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="t-box">
+                            <div className="t-wrap-box">
+                                <div className="img" >
+                                <div className="img-tests" id="a"></div>
+                                    <div className="t-name">
+                                        Mike Armoos
+                                    </div>
+                                    <div className="comment">
+                                        work with ADC has been a game changer for me and my startup company
+                                        by making transpotation of goods safe smooth and easy.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
 
 
-function Footer(){
+function Footer() {
     return (
         <div className="Footer">
             <div className="footer-wraper">
@@ -251,23 +314,59 @@ function Footer(){
                 </div>
                 <div className="rigth">
                     <h1 className="fHeader">Get in Touch</h1>
-                    <p style={{color: 'white'}}>Main office address: 325 West 38th Street, Garment District, New York, NY USA <br/>
-Branch office address: King Fahed Road, Tamkeen Tower, 6th floor, Riyadh, Saudi Arabia <br /><br />
-                    +17186184151 (USA branch)<br /> 
-                    +17186184151<br/>
-                    +965 655525367 <br/>
-                    +966 50 555 250</p>
+                    <div className="c-box">
+                        <div className="c-left">
+                            <span class="iconify" style={{ color: 'white', marginBottom: '10px' }} data-icon="uil:location-pin-alt" data-width="30"></span>
+                        </div>
+                        <div className="c-right">
+                            <p style={{ color: 'white', fontWeight: '600' }}><span style={{ color: "gray", fontSize: 'smaller' }}>Main office address: </span><br /> 325 West 38th Street, Garment District, New York, NY USA</p>
+                            <p style={{
+                                color: 'white', fontWeight: '600', marginTop: "10px"
+                            }}><span style={{ color: "gray", fontSize: 'smaller' }}>Branch office address:</span> <br /> King Fahed Road, Tamkeen Tower, 6th floor, Riyadh, Saudi Arabia </p>
+                        </div>
+                    </div>
+                    <br /><br />
+                    <div className="c-box">
+                        <div className="c-left">
+                            <span class="iconify" style={{ color: 'white', marginBottom: '10px' }} data-icon="uil:outgoing-call" data-width="30"></span>
+                        </div>
+                        <div className="c-right">
+                            <p style={{
+                                color: 'white',
+                                fontSize: 'small'
+                            }}>+17186184151 (USA branch) </p>
+                            <p style={{
+                                color: 'white',
+                                fontSize: 'small'
+                            }}>+17186184151 </p>
+                            <p style={{
+                                color: 'white',
+                                fontSize: 'small'
+                            }}>+965 655525367  </p>
+                            <p style={{
+                                color: 'white',
+                                fontSize: 'small'
+                            }}>+966 50 555 250 </p>
+                            <br />
+                        </div>
+                    </div>
+                    <div className="c-box">
+                        <div className="c-left">
+                            <span class="iconify" style={{ color: 'white', marginBottom: '10px' }} data-icon="uil:fast-mail" data-width="30"></span>
+                        </div>
+                        <div className="c-right">
+                            <a href="mailto:dispatch@airsydelivery.com" style={{ color: 'white' }}>dispatch@airsydelivery.com</a>
+                        </div>
+                    </div>
                     <br />
-                    <a href="mailto:dispatch@airsydelivery.com" style={{color: 'white'}}>dispatch@airsydelivery.com</a>
-                    <br />
-                    <div className="icons" style={{display:'grid', gridTemplateColumns:'repeat(4, 50px)'}}>
-                        <span className="iconify" data-icon="uil:twitter" style={{color: 'white'}} data-width="30"></span>
-                        <span className="iconify" data-icon="uil:facebook" style={{color: 'white'}} data-width="30"></span>
-                        <span className="iconify" data-icon="uil:instagram" style={{color: 'white'}} data-width="30"></span>
+                    <div className="icons" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 50px)' }}>
+                        <span className="iconify" data-icon="uil:twitter" style={{ color: 'white' }} data-width="30"></span>
+                        <span className="iconify" data-icon="uil:facebook" style={{ color: 'white' }} data-width="30"></span>
+                        <span className="iconify" data-icon="uil:instagram" style={{ color: 'white' }} data-width="30"></span>
                     </div>
                 </div>
             </div>
         </div>
     );
 }
-export  {HomeMain, Qualities, AboutUS, Services, Footer} 
+export { HomeMain, Qualities, AboutUS, Testmo, Services, Footer } 

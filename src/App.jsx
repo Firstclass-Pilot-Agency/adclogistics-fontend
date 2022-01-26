@@ -8,6 +8,7 @@ import {
     Qualities,
     AboutUS,
     Services,
+    Testmo,
     Footer,
 } from "./Components/HomePage";
 import { SignIn, SignOTP, SignUpFirst ,SignUpSecond } from './Components/SignAccount';
@@ -109,6 +110,7 @@ function Home() {
       <Qualities />
       <AboutUS />
       <Services />
+      <Testmo />
       <Footer />
     </div>
   )
