@@ -36,7 +36,38 @@
     font-size: 20px;
     padding-bottom: 5px;
 }
-#drop{
-    display: none;
+
+.extrainfo{
+    margin-top: 20px;
 }
-.show {display:block;}
+.progressBar{
+    width:100%;
+    background: rgba(128, 128, 128, 0.342);
+    border-radius: 100px;
+    overflow: hidden;
+}
+.status{
+    margin-top: 20px;
+}
+.bar{
+    width: 10%;
+    height: 5px;
+    background: white;
+}
+.stats{
+    width: fit-content;
+    padding: 7px 10px;
+    display: inline;
+    float: right;
+    color:black;
+    font-size: small;
+    font-weight: 500;
+    border-radius: 100px;
+}
+.tpsec-pack{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.quickinfo{
+    margin-top: 20px;
+}

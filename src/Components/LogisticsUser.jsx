@@ -11,7 +11,7 @@ function LogisticsUser() {
                     <p>here is an overview of the activities on your account</p>
                 </div>
                 <div className="orders">
-                    <TrackingBoxitems Title='Package 1' PackInfo='big' TrackingId='#207709749034' />
+                    <TrackingBoxitems Title='Package 1' PackInfo='big' TrackingId='#207709749034' Status='motion' describePack='12 set of exotic wine'/>
                 </div>
                 <div className="moreinfo">
                     <div className="boxinfo"></div>
@@ -26,14 +26,66 @@ function LogisticsUser() {
 function TrackingBoxitems(props){
     const Title = props.Title
     const TrackingId = props.TrackingId
+    const Status = props.Status
+    const describePack = props.describePack
     return(
         <button className="Order-boxitem">
-            <h1 className="packagee">{Title}</h1>
-            <p className="packageid">{TrackingId}</p>
-            <div className="extrainfo" id="drop">
-                div.progressBar
+            <div className="tpsec-pack">
+                <div className="left-pack">
+                    <h1 className="packagee">{Title}</h1>
+                    <p className="packageid">{TrackingId}</p>
+                </div>
+                <div className="left-pack">
+                <span class="iconify" data-icon="uil:arrow-right" style={{color:" white", float:'right'}} data-width="26"></span>
+                </div>
+            </div>
+            
+            <div className="extrainfo">
+                <div className="progressBar">
+                    <div className="bar"></div>
+                </div>
+                <div className="quickinfo">
+                    <span className="iconify" data-icon="ph:package-bold"
+                                        style={{color:" white"}} id="i-eeone"></span>
+
+                    <p>{describePack}</p>
+                </div>
+                <StatusIndicator Status={Status}/>
             </div>
         </button>
     )
+}
+
+
+// add status to database
+function StatusIndicator(props){
+    const Stats = props.Status;
+    if(Stats === 'motion'){
+        return (
+            <div className="status">
+                <div className="stats" style={{background:'#FBC12E'}}>
+                    <p>In Motion</p>
+                </div>
+            </div>
+        )
+    }
+    if(Stats === 'pending'){
+        return (
+            <div className="status">
+                <div className="stats" style={{background:'gray'}}>
+                    <p>Pending</p>
+                </div>
+            </div>
+        )
+    }
+    if(Stats === 'done'){
+        return (
+            <div className="status">
+                <div className="stats" style={{background:'#2BFFBF'}}>
+                    <p>Done</p>
+                </div>
+            </div>
+        )
+    }
 }
 export { LogisticsUser };

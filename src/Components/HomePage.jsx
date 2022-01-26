@@ -230,29 +230,7 @@ function Services() {
     );
 }
 
-function Faq() {
-    return (
-        <div className="Faqs">
-            <div className="faqs-wraper">
-                div.wleft
-                <h1 className="mainHeader">
-                    Services That <br />{" "}
-                    <span className="blue-mainHeader">Suits</span> You
-                </h1>
-                <p className="subHeader">
-                    ADC is your number one online <br />
-                    logistics site in Nigeria. transport <br />
-                    items with the push of a button <br />
-                    anytime anywhere
-                </p>
-            </div>
-        </div>
-    );
-}
 
-function Comments() {
-    
-}
 
 function Footer(){
     return (
@@ -289,4 +267,4 @@ function Footer(){
         </div>
     );
 }
-export  {HomeMain, Qualities, AboutUS, Services, Faq, Comments,Footer} 
+export  {HomeMain, Qualities, AboutUS, Services, Footer} 
