@@ -1,4 +1,8 @@
 import logo from "../images/Logo.png";
+import a from '../images/a.jpg'
+import b from '../images/b.jpg'
+import c from '../images/c.jpg'
+
 function HomeMain() {
     return (
         <div className="HomeMain">
@@ -248,11 +252,15 @@ function Testmo() {
                         <div className="t-box">
                             <div className="t-wrap-box">
                                 <div className="img">
-                                <div className="img-tests"id="c"></div>
+                                <div className="img-tests"id="c">
+                                    <img src={a} alt="" />
+                                </div>
+                                <span style={{fontSize:'13px', color:'gray', margin:'0', padding:'0'}}><br />Fashion Designer</span>
                                     <div className="t-name">
-                                        Mike Armoos
+                                        Lisa Gray
                                     </div>
                                     <div className="comment">
+                                        
                                         work with ADC has been a game changer for me and my startup company
                                         by making transpotation of goods safe smooth and easy.
                                     </div>
@@ -262,7 +270,10 @@ function Testmo() {
                         <div className="t-box">
                             <div className="t-wrap-box">
                                 <div className="img">
-                                    <div className="img-tests"id="b"></div>
+                                    <div className="img-tests"id="b">
+                                    <img src={c} alt="" />
+                                    </div>
+                                    <span style={{fontSize:'13px', color:'gray', margin:'0', padding:'0'}}><br />Bloger</span>
                                     <div className="t-name">
                                         Mike Armoos
                                     </div>
@@ -276,9 +287,12 @@ function Testmo() {
                         <div className="t-box">
                             <div className="t-wrap-box">
                                 <div className="img" >
-                                <div className="img-tests" id="a"></div>
+                                <div className="img-tests" id="a">
+                                    <img src={b} alt="" />
+                                </div>
+                                <span style={{fontSize:'13px', color:'gray', margin:'0', padding:'0'}}><br />Store Owner</span>
                                     <div className="t-name">
-                                        Mike Armoos
+                                        Jane Joe 
                                     </div>
                                     <div className="comment">
                                         work with ADC has been a game changer for me and my startup company
