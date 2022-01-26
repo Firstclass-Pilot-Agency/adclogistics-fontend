@@ -777,11 +777,14 @@ body {
     background-size: cover;
 }
 #a{
-    background-image: url(https://unsplash.com/photos/ILip77SbmOE);
+    background: url(https://unsplash.com/photos/ILip77SbmOE);
+    background-size: cover;
 }
 #b{
-    background-image: url(https://unsplash.com/photos/k9XZPpPHDho);
+    background: url(https://unsplash.com/photos/k9XZPpPHDho);
+    background-size: cover;
 }
 #c{
-    background-image: url(https://unsplash.com/photos/XttWKETqCCQ);
+    background: url(https://unsplash.com/photos/XttWKETqCCQ);
+    background-size: cover;
 }
